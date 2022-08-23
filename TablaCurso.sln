@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TablaCurso.DAL", "TablaCurso.DAL\TablaCurso.DAL.csproj", "{144F38A3-3CAA-4865-AC60-9668720B3EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablaCurso.BLL", "TablaCurso.BLL\TablaCurso.BLL.csproj", "{6CB4DF14-90D0-4189-9FC1-04F36130FFE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TablaCurso.BLL", "TablaCurso.BLL\TablaCurso.BLL.csproj", "{6CB4DF14-90D0-4189-9FC1-04F36130FFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.PL", "Curso.PL\Curso.PL.csproj", "{DC1DF25E-7AAD-458E-B504-F58F28F3EA25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6CB4DF14-90D0-4189-9FC1-04F36130FFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB4DF14-90D0-4189-9FC1-04F36130FFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CB4DF14-90D0-4189-9FC1-04F36130FFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1DF25E-7AAD-458E-B504-F58F28F3EA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1DF25E-7AAD-458E-B504-F58F28F3EA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1DF25E-7AAD-458E-B504-F58F28F3EA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1DF25E-7AAD-458E-B504-F58F28F3EA25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -103,3 +103,24 @@ namespace TablaCurso.BLL.Services
 
     }
 }
+
+namespace TablaCurso.BLL
+{
+    public class CursoService
+    {
+        public Task<List<CursoListModel>> GetAllCursosAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+namespace TablaCurso.BLL
+{
+    public class CursoListModel
+    {
+        internal int CursoId;
+        internal int CodAsignatura;
+        internal string NombreAsignatura;
+    }
+}
